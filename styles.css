@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 980px;
+    font-family: 'Roboto Slab', serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 50px;
+}
+.redes {
+    display: flex;
+}
+.cont__nombre {
+    padding: 10px 20px;
+}
+.icon__rrss {
+    padding: 0 5px;
+}
+.icon__rrss img {
+    width: 30px;
+    height: 30px;
+}
+h1 {
+    font-size: 38px;
+    color: greenyellow;
+    font-weight: 700;
+    margin: 0 0 0 2px;
+}
+
+h1 span {
+    color: gainsboro;
+}
+
+.foto__circulo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.contenedor__col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 250px;
+    background-color: gainsboro;
+    border-radius: 15px 0 15px 0;
+    padding: 10px 25px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.contenedor__col2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 250px;
+    background-color: greenyellow;
+    border-radius: 15px 0 15px 0;
+    padding: 10px 25px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 20px;
+    /* text-transform: uppercase; */
+    font-weight: 400;
+    margin: 0;
+}
+h3 span{
+    font-size: 25px;
+    color: greenyellow;
+}
+
+.cont__nombre p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+    margin: 0;
+}
+.link__col {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+}
+.section {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.content__box {
+    display: flex;
+    flex-direction: column;
+}
+.box {
+    width: 100%;
+    padding: 15px 0 15px 15px;
+    text-align: left;
+
+}
+
+.box p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: 20px;
+    line-height:25px;
+}
+.box ul {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.box li {
+    text-decoration: dotted;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 13px;
+    line-height: 25px;
+}
+.bg {
+    border-radius: 15px 0 15px 0;
+    background-color: gainsboro;
+}
+
+h4 {
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 0;
+    font-size: 12px;
+    font-weight: 400;
+}
