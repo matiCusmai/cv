@@ -35,7 +35,7 @@ h1 span {
 .redes {
     display: flex;
     align-items: center; 
-    gap: 6px;
+    /* gap: 6px; */
 }
 .cont__nombre {
     padding: 10px 20px;
@@ -43,6 +43,7 @@ h1 span {
 .icon__rrss {
     width: 30px;
     height: 30px;
+    margin: 0 5px;
 }
 
 .icon__rrss img {
