@@ -19,11 +19,36 @@ header {
     align-items: center;
     flex-wrap: wrap;
 }
+
 h1 {
     font-size: 38px;
     color: greenyellow;
     font-weight: 700;
     margin: 0 0 0 2px;
+}
+.h1_eng {
+    font-size: 29px;
+}
+
+.eng {
+    width: 32px;
+    height: 32px;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: greenyellow;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+}
+.eng a {
+    text-decoration: none;
+
 }
 
 h1 span {
