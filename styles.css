@@ -210,12 +210,10 @@ h5 {
 }
 
 footer {
-    clear: both;
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    width: 100%;
-    padding: 15px 40px 20px 40px;
-    text-align: left;
+    clear: both;
 }
 
 .bg-black {
@@ -226,7 +224,6 @@ footer {
 .miportfolio {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
     padding-top: 20px;
 }
